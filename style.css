@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 20px 0 8px;
+}
+
+.subtitle {
+  color: #9da7b3;
+  margin: 6px 0 24px;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #9da7b3;
+}
+
+input,
+select {
+  padding: 12px;
+  font-size: 1rem;
+  background: #161b22;
+  color: #e6edf3;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #238636;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.status {
+  margin-top: 16px;
+  min-height: 1.5em;
+  color: #9da7b3;
+}
+
+.status.error {
+  color: #f85149;
+}
+
+.result {
+  margin-top: 8px;
+}
+
+.account-id {
+  word-break: break-all;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.meta {
+  color: #9da7b3;
+  font-size: 0.9rem;
+}
+
+.balances {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.balances li {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.asset-name {
+  font-weight: 600;
+}
+
+.asset-amount {
+  color: #58a6ff;
+}
+
+.asset-issuer {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #6e7681;
+  word-break: break-all;
+}
